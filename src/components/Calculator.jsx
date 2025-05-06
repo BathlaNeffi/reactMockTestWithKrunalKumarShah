@@ -19,6 +19,7 @@ export default function Calculator() {
                 setHistory([...parseData]);
             } catch (error) {
                 console.log(error);
+                
             }
         }
         fetchfromLocla();
